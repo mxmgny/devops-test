@@ -1,0 +1,13 @@
+secretGenerator:
+- name: mysql-pass
+  literals:
+  - password=mxmgny123
+resources:
+- ./.kube/mysql_deployment.yaml 
+- ./.kube/wordpress_deployment.yaml 
+- ./.kube/es_deployment.yaml
+- ./.kube/es_pvc.yaml
+- ./.kube/es_service.yaml
+- ./.kube/fluentd_daemonset.yaml
+- ./.kube/kibana_deployment.yaml
+- ./.kube/kibana_service.yaml
