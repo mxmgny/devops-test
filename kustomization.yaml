@@ -11,3 +11,4 @@ resources:
 - ./.kube/fluentd_daemonset.yaml
 - ./.kube/kibana_deployment.yaml
 - ./.kube/kibana_service.yaml
+- ./.kube/fluendt_deployment.yaml
