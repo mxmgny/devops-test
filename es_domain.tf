@@ -6,4 +6,5 @@ module "es" {
   instance_type     = "m4.large.elasticsearch"
   es_zone_awareness = true
   ebs_volume_size   = 100
+  management_public_ip_addresses = ["0.0.0.0/0"]
 }
